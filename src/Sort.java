@@ -1,19 +1,4 @@
 public class Sort {
-    public static void main(String[] args) {
-        long[] arr = {5,6,2,11,7,9,4,-8};
-        System.out.print("[ ");
-        for(int i = 0;i < arr.length;i++){
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println("]");
-        insertSort(arr);
-        System.out.print("[ ");
-        for(int i = 0;i < arr.length;i++){
-            System.out.print(arr[i]+" ");
-        }
-        System.out.println("]");
-    }
-
     /**
      * 冒泡排序
      */
