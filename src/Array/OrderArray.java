@@ -1,14 +1,16 @@
+package Array;
+
 /**
  * 有序数组
  */
 
-public class MyOrderArray {
+public class OrderArray {
     private long[] arr;
     private int elements;//有效数据的长度
-    public MyOrderArray(){
+    public OrderArray(){
         arr = new long[50];//默认构造方法，设定初始长度为50
     }
-    public MyOrderArray(int maxsize){
+    public OrderArray(int maxsize){
         arr = new long[maxsize];//有参构造方法，传入数组的最大长度
     }
     /**

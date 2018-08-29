@@ -1,10 +1,12 @@
-public class MyArray {
+package Array;
+
+public class Array {
     private long[] arr;
     private int elements;//有效数据的长度
-    public MyArray(){
+    public Array(){
         arr = new long[50];//默认构造方法，设定初始长度为50
     }
-    public MyArray(int maxsize){
+    public Array(int maxsize){
         arr = new long[maxsize];//有参构造方法，传入数组的最大长度
     }
     /**
