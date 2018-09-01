@@ -1,4 +1,6 @@
-public class Sort {
+package Sort;
+
+public class SimpleSort {
     /**
      * 冒泡排序
      */

@@ -74,7 +74,7 @@ public class OrderArray {
             throw new ArrayIndexOutOfBoundsException();//若索引大于数组长度或者小于0，则抛出数组越界异常
         }else {
             for(int i = index;i < elements;i++){
-                arr[index] = arr[index+1];
+                arr[i] = arr[i+1];
             }
             elements--;
         }
